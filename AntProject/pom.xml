@@ -8,7 +8,7 @@
   
   
   <dependencies>
-  			<dependency>
+<!--   			<dependency>
   					<groupId>org.springframework</groupId>
   					<artifactId>spring-core</artifactId>
   					<version>3.1.1.RELEASE</version>
@@ -20,11 +20,11 @@
   					<version>3.1.1.RELEASE</version>
   			</dependency>
   			
-<!--   			<dependency>
+  			<dependency>
   					<groupId>org.springframework</groupId>
   					<artifactId>org.springframework.web.servlet</artifactId>
   					<version>3.1.0.RELEASE</version>
-  			</dependency> -->
+  			</dependency>
   			
   			<dependency>
     <groupId>javax.servlet</groupId>
@@ -38,7 +38,7 @@
   					<version>3.1.1.RELEASE</version>
   			</dependency>
   
-  
+   -->
   <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
 <dependency>
     <groupId>org.apache.maven.plugins</groupId>
