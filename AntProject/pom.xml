@@ -1,0 +1,86 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>maven</groupId>
+  <artifactId>Ant</artifactId>
+  <version>1.0</version>
+  <packaging>jar</packaging>
+
+  
+  
+  <dependencies>
+  			<dependency>
+  					<groupId>org.springframework</groupId>
+  					<artifactId>spring-core</artifactId>
+  					<version>3.1.1.RELEASE</version>
+  			</dependency>
+  			
+  			<dependency>
+  					<groupId>org.springframework</groupId>
+  					<artifactId>spring-webmvc</artifactId>
+  					<version>3.1.1.RELEASE</version>
+  			</dependency>
+  			
+<!--   			<dependency>
+  					<groupId>org.springframework</groupId>
+  					<artifactId>org.springframework.web.servlet</artifactId>
+  					<version>3.1.0.RELEASE</version>
+  			</dependency> -->
+  			
+  			<dependency>
+    <groupId>javax.servlet</groupId>
+    <artifactId>javax.servlet-api</artifactId>
+    <version>3.1.0</version>
+</dependency>
+  			
+  			<dependency>
+  					<groupId>org.springframework</groupId>
+  					<artifactId>spring-context</artifactId>
+  					<version>3.1.1.RELEASE</version>
+  			</dependency>
+  
+  
+  <!-- https://mvnrepository.com/artifact/org.apache.maven.plugins/maven-deploy-plugin -->
+<dependency>
+    <groupId>org.apache.maven.plugins</groupId>
+    <artifactId>maven-deploy-plugin</artifactId>
+    <version>2.8</version>
+</dependency>
+  
+  <!-- https://mvnrepository.com/artifact/org.codehaus.mojo/sonar-maven-plugin -->
+<dependency>
+    <groupId>org.codehaus.mojo</groupId>
+    <artifactId>sonar-maven-plugin</artifactId>
+    <version>3.2</version>
+</dependency>
+  
+  </dependencies>
+  <!-- 
+<distributionManagement>
+    <repository>
+        <id>central</id>
+        <name>Yash-PC-releases</name>
+        <url>http://localhost/artifactory/Ant_samle_snapshot</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>Yash-PC-snapshots</name>
+        <url>http://localhost/artifactory/Ant_samle_snapshot</url>
+    </snapshotRepository>
+</distributionManagement> -->
+
+
+<distributionManagement>
+
+
+<repository>
+    <id>test_release</id>
+    <url>http://localhost:8081/nexus/content/repositories/test_release</url>
+  </repository>
+
+  <snapshotRepository>
+    <id>test_snapshot</id>
+    <url>http://localhost:8081/nexus/content/repositories/test_snapshot</url>
+  </snapshotRepository>
+</distributionManagement>
+
+</project>  
