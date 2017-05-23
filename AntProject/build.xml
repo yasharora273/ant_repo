@@ -33,7 +33,7 @@
 
 		<!-- Put everything in ${build} into the {$projectName}-${DSTAMP}.jar file -->
 		<!-- <jar jarfile="${dist.dir}/${projectName}-${DSTAMP}.jar" basedir="${build.dir}"> -->
-		<jar jarfile="${dist.dir}/Ant-1.0.jar" basedir="${build.dir}">
+		<jar jarfile="${dist.dir}/Ant-2.0.jar" basedir="${build.dir}">
 			<manifest>
 				<attribute name="Main-Class" value="com.mkyong.core.utils.DateUtils" />
 			</manifest>
